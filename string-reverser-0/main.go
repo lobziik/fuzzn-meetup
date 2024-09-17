@@ -10,9 +10,6 @@ func Reverse(input string) string {
 	for i, j := 0, len(b)-1; i < len(b)/2; i, j = i+1, j-1 {
 		b[i], b[j] = b[j], b[i]
 	}
-
-	// artificialAndLowProbableCrash([]byte(input))
-
 	return string(b)
 }
 
