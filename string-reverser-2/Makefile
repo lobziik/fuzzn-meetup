@@ -1,6 +1,6 @@
 
 unit-test:
-	go test main.go main_test.go
+	go test main.go crash.go main_test.go
 
 
 fuzz-test:

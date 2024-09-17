@@ -11,7 +11,7 @@ func artificialAndLowProbableCrash(input string) {
 	if b[6] == thisSequenceWillCausePanic[0] {
 		if b[7] == thisSequenceWillCausePanic[1] {
 			if b[8] == thisSequenceWillCausePanic[2] {
-				if b[9] == thisSequenceWillCausePanic[2] {
+				if b[9] == thisSequenceWillCausePanic[3] {
 					panic("BOOM! 0xDEADBEEF encountered!")
 				}
 			}
